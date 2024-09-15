@@ -10,8 +10,11 @@ function App() {
 
   const addValue=()=>{
     //counter = counter + 1;
-    setCounter(counter+1)
-    console.log("clicked",Math.random)
+    setCounter(prevCounter => prevCounter+1)
+    setCounter(prevCounter =>prevCounter+1)
+    setCounter(prevCounter =>prevCounter+1)
+    setCounter(prevCounter =>prevCounter+1)
+    
   }
 
   const removeValue=()=>{
